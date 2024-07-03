@@ -74,3 +74,7 @@ end
 gem 'devise'
 gem 'mini_magick'
 gem 'active_hash'
+
+group :production do
+  gem 'pg'
+end
